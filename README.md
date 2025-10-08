@@ -1,76 +1,52 @@
-# [Nome do Projeto]
+# Podcast "Poeira das Estrelas" | Desafio de Projeto DIO
 
+![Status](https://img.shields.io/badge/status-Concluído-green.svg)
 ![Licença](https://img.shields.io/badge/licença-MIT-blue.svg)
-![Status do Projeto](https://img.shields.io/badge/status-Concluído-green.svg)
 
-> Um resumo conciso e chamativo sobre o seu projeto. Por exemplo: "Um podcast sobre exploração espacial totalmente gerado com Inteligência Artificial como parte do desafio da DIO."
+> Projeto de criação de um podcast utilizando um fluxo de trabalho 100% baseado em Inteligência Artificial Generativa, como parte do desafio da [Digital Innovation One (DIO)](https://www.dio.me/).
 
 ---
 
 ### 📖 Índice
 
 * [Sobre o Projeto](#-sobre-o-projeto)
-* [🎬 Demonstração](#-demonstração)
-* [✨ Funcionalidades](#-funcionalidades)
-* [🛠️ Tecnologias Utilizadas](#️-tecnologias-utilizadas)
-* [🚀 Como Executar](#-como-executar)
+* [🎬 Resultado Final](#-resultado-final)
+* [🤖 Prompts Utilizados](#-prompts-utilizados)
+* [🛠️ Ferramentas](#️-ferramentas)
 * [👨‍💻 Autor](#-autor)
-* [📜 Licença](#-licença)
 
 ---
 
 ## 📝 Sobre o Projeto
 
-Este projeto foi desenvolvido como parte do desafio prático da [Digital Innovation One (DIO)](https://www.dio.me/). O objetivo era criar um produto de conteúdo (um podcast) utilizando exclusivamente ferramentas de Inteligência Artificial Generativa para roteirização, criação de identidade visual e narração. A ideia foi demonstrar na prática o poder e a acessibilidade dessas novas tecnologias.
+**Poeira das Estrelas** é um podcast para leigos e curiosos sobre a história da exploração espacial. Este projeto demonstra a criação de um episódio piloto do zero, onde cada componente — roteiro, narração e identidade visual — foi gerado por uma ferramenta de IA diferente. O objetivo foi explorar as capacidades e a sinergia dessas tecnologias na produção de conteúdo digital de alta qualidade.
 
 ---
 
-## 🎬 Demonstração
+## 🎬 Resultado Final
 
-#### Arte da Capa
-![Capa do Podcast](./caminho/para/sua/capa.png)
+### Arte da Capa
+A identidade visual do podcast, gerada via Midjourney.
 
-#### Áudio do Podcast
-[🎧 Ouça o episódio piloto aqui!](./caminho/para/seu/audio.mp3)
+![Capa do Podcast Poeira das Estrelas](./media/capa_podcast.jpg)
 
----
+### Episódio 1: O Projeto Apollo
+O roteiro foi gerado pelo ChatGPT e a narração foi criada com a voz sintética da ElevenLabs.
 
-## ✨ Funcionalidades
-
--   **Geração de Roteiro via IA:** O roteiro do podcast foi criado utilizando o ChatGPT.
--   **Criação de Arte via IA:** A capa e a identidade visual foram geradas com o Midjourney.
--   **Narração Sintética Humanizada:** A locução foi produzida pela plataforma ElevenLabs, transformando texto em fala de alta qualidade.
+**[🎧 Clique aqui para ouvir o episódio piloto](./media/episodio_1_apollo.mp3)**
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🤖 Prompts Utilizados
 
--   [**ChatGPT**](https://chat.openai.com/) - Para brainstorming de ideias e criação do roteiro.
--   [**Midjourney**](https://www.midjourney.com/) - Para criação da arte da capa.
--   [**ElevenLabs**](https://elevenlabs.io/) - Para a síntese de voz e narração.
--   [**Audacity**](https://www.audacityteam.org/) (Opcional) - Para edição e montagem final do áudio.
--   [**Markdown**](https://www.markdownguide.org/) - Para a documentação e criação deste README.
+Esta seção documenta os prompts exatos que serviram como base para a criação dos conteúdos.
 
----
-
-## 🚀 Como Executar
-
-Para acessar o conteúdo deste projeto, siga os passos abaixo:
-
-1.  Clone o repositório para a sua máquina local:
-    ```bash
-    git clone [https://github.com/](https://github.com/)[seu-usuario]/[nome-do-repositorio].git
-    ```
-2.  Navegue até o diretório do projeto:
-    ```bash
-    cd [nome-do-repositorio]
-    ```
-3.  Os arquivos de mídia (capa e áudio) estão disponíveis no repositório e podem ser abertos com qualquer player de mídia ou visualizador de imagem compatível.
-
----
-
----
-
-## 📜 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+### 1. Roteiro (Gerado com ChatGPT)
+```text
+Escreva um roteiro de aproximadamente 3 minutos para um podcast chamado 'Poeira das Estrelas', apresentado por 'Mateus'. O tema do primeiro episódio é o Projeto Apollo, explicado de forma simples e inspiradora para leigos. O roteiro deve ter uma linguagem conversacional e incluir:
+1. Uma introdução que convide o ouvinte a olhar para a Lua.
+2. O contexto da Guerra Fria e da corrida espacial.
+3. A menção ao desafio do presidente John F. Kennedy.
+4. Uma descrição do esforço monumental (número de pessoas, o foguete Saturno V).
+5. A importância tecnológica e a mudança de perspectiva com a foto 'Earthrise'.
+6. Uma conclusão que inspire o ouvinte com uma pergunta engajadora sobre qual deveria ser a 'nova Lua' da humanidade.
