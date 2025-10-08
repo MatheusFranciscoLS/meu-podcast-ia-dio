@@ -28,12 +28,12 @@
 ### Arte da Capa
 A identidade visual do podcast, gerada via Midjourney.
 
-![Capa do Podcast Poeira das Estrelas](./media/capa_podcast.jpg)
+![Capa do Podcast Poeira das Estrelas](./media/20251007_2247_image.png)
 
 ### Episódio 1: O Projeto Apollo
 O roteiro foi gerado pelo ChatGPT e a narração foi criada com a voz sintética da ElevenLabs.
 
-**[🎧 Clique aqui para ouvir o episódio piloto](./media/episodio_1_apollo.mp3)**
+**[🎧 Clique aqui para ouvir o episódio piloto](./media/ElevenLabs_2025-10-08T01_47_58_Brian_pre_sp100_s50_sb75_se0_b_m2.mp3)**
 
 ---
 
